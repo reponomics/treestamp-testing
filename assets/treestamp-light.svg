@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="405" height="424" viewBox="0 0 405 424" role="img" aria-labelledby="title description">
+<title id="title">Repository tree</title>
+<desc id="description">Directory structure and annotations. Editable treestamp data is embedded in this image.</desc>
+<metadata><ts:treestamp xmlns:ts="urn:treestamp:svg:1" version="1" codec="treestamp-text-v1" encoding="base64" text_style="unicode" show_counts="false" style="continuous" theme="light">PCEtLSB0cmVlc3RhbXA6c3RhcnQgLS0+CgpgYGBzaAouLwrilJzilIDilIAgZG9jcy8gICMgR3VpZGVzIGFuZCByZWZlcmVuY2UK4pSCICAg4pSc4pSA4pSAIGdldHRpbmctc3RhcnRlZC5tZArilIIgICDilJTilIDilIAgbm90ZXMgJiBleGFtcGxlcy5tZArilJzilIDilIAgc3JjLyAgIyBBcHBsaWNhdGlvbiBjb2RlCuKUgiAgIOKUnOKUgOKUgCBhcHAucHkK4pSCICAg4pSU4pSA4pSAIHBhcnNlci5weSAgIyBSZWFkLCB2YWxpZGF0ZSAmIHByZXNlcnZlIG5hbWVzCuKUnOKUgOKUgCB0ZXN0cy8gICMgUm91bmQtdHJpcCByZWdyZXNzaW9uIHRlc3RzCuKUgiAgIOKUlOKUgOKUgCB0ZXN0X3BhcnNlci5weQrilJzilIDilIAgUkVBRE1FLm1kICAjIEEgd2VsY29taW5nIHBsYWNlIHRvIGJlZ2luCuKUlOKUgOKUgCBweXByb2plY3QudG9tbApgYGAKCjwhLS0gdHJlZXN0YW1wOmVuZCAtLT4K</ts:treestamp></metadata>
+<rect width="405" height="424" rx="8" fill="#faf9f6"/>
+<g fill="none" stroke="#a6ada0" stroke-width="1.25">
+<line x1="39" y1="47" x2="39" y2="395"/>
+<line x1="39" y1="59" x2="48" y2="59"/>
+<line x1="39" y1="155" x2="48" y2="155"/>
+<line x1="39" y1="275" x2="48" y2="275"/>
+<line x1="39" y1="347" x2="48" y2="347"/>
+<line x1="39" y1="395" x2="48" y2="395"/>
+<line x1="69" y1="71" x2="69" y2="131"/>
+<line x1="69" y1="107" x2="78" y2="107"/>
+<line x1="69" y1="131" x2="78" y2="131"/>
+<line x1="69" y1="167" x2="69" y2="227"/>
+<line x1="69" y1="203" x2="78" y2="203"/>
+<line x1="69" y1="227" x2="78" y2="227"/>
+<line x1="69" y1="287" x2="69" y2="323"/>
+<line x1="69" y1="323" x2="78" y2="323"/>
+</g>
+<g font-family="monospace" font-size="14" xml:space="preserve">
+<text x="24" y="40" fill="#292b28" font-weight="600">./</text>
+<text x="54" y="64" fill="#292b28" font-weight="600">docs/</text>
+<text x="72" y="88" fill="#666b62" font-weight="400">Guides and reference</text>
+<text x="84" y="112" fill="#292b28" font-weight="400">getting-started.md</text>
+<text x="84" y="136" fill="#292b28" font-weight="400">notes &amp; examples.md</text>
+<text x="54" y="160" fill="#292b28" font-weight="600">src/</text>
+<text x="72" y="184" fill="#666b62" font-weight="400">Application code</text>
+<text x="84" y="208" fill="#292b28" font-weight="400">app.py</text>
+<text x="84" y="232" fill="#292b28" font-weight="400">parser.py</text>
+<text x="102" y="256" fill="#666b62" font-weight="400">Read, validate &amp; preserve names</text>
+<text x="54" y="280" fill="#292b28" font-weight="600">tests/</text>
+<text x="72" y="304" fill="#666b62" font-weight="400">Round-trip regression tests</text>
+<text x="84" y="328" fill="#292b28" font-weight="400">test_parser.py</text>
+<text x="54" y="352" fill="#292b28" font-weight="400">README.md</text>
+<text x="72" y="376" fill="#666b62" font-weight="400">A welcoming place to begin</text>
+<text x="54" y="400" fill="#292b28" font-weight="400">pyproject.toml</text>
+</g>
+</svg>
