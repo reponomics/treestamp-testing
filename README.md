@@ -1,6 +1,6 @@
 # Treestamp GitHub compatibility fixtures
 
-This repository is part of [treestamp's](https://github.com/reponomics/treestamp) development surface. It holds controlled fixtures for GitHub Markdown and image rendering, real API acquisition, and local/hosted editor compatibility. It began with adaptive SVG inspection; other scenarios belong here when they need the real GitHub environment.
+This repository is a publicly visible, ephemeral workspace controlled by the [treestamp](https://github.com/reponomics/treestamp) maintainer, with write access currently restricted to that role. Its tentative purpose is live testing of GitHub rendering behavior, beginning with adaptive SVG inspection. It is isolated from treestamp's supply chain and development processes; its disposable contents are available for inspection and are not authoritative statements about the public product.
 
 Read the [usage, access, and governance policy](POLICY.md) before publishing fixtures or running live checks. The [fixture inventory](FIXTURES.md) distinguishes historical experiments from current exporter output. Only the maintainer authorizes publication; routine tests do not push here. The retained images below are visual controls, not evidence that a current treestamp release has passed validation.
 

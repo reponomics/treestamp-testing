@@ -1,10 +1,14 @@
 # GitHub compatibility validation policy
 
-This repository is an official development resource for [treestamp](https://github.com/reponomics/treestamp). It holds controlled, public fixtures for questions that local tests and a fake GitHub API cannot answer. The exported document is the compatibility artifact. Cached snapshots, browser drafts, and editing-session URLs are temporary implementation details, not persisted or shared sessions.
+This repository is a publicly visible, ephemeral workspace under the control of the [treestamp](https://github.com/reponomics/treestamp) maintainer. Write access is currently restricted to the maintainer. Its tentative purpose is live testing of GitHub rendering behavior.
+
+The repository is isolated from treestamp's supply chain. Apart from the maintainer's identity, credentials are not shared, and it has no workflow access to the main repository. Its inputs and outputs have no direct integration with treestamp's development processes, and no project workflow depends on its existence.
+
+It produces no assets intended for public consumption. Its contents are available for inspection, but are disposable and do not constitute authoritative statements about public treestamp behavior.
 
 ## Ownership and access
 
-Reponomics owns the repository. The maintainer, [Really Him (@hesreallyhim)](https://github.com/hesreallyhim), owns its fixtures, settings, visibility, access decisions, and publication. Public readers may inspect, clone, and propose changes through issues or pull requests. Read access does not grant write authority.
+The maintainer controls the repository's fixtures, settings, visibility, access decisions, and publication. Public readers may inspect, clone, and propose changes through issues or pull requests. Read access does not grant write authority.
 
 Only the maintainer may push or merge. Agents may prepare patches and conduct read-only validation; publication through the maintainer's account requires explicit maintainer authorization for that change. Test runs and scheduled jobs have no independent authority to publish fixtures, change visibility, or grant access. Routine treestamp CI receives no write credential for this repository.
 
