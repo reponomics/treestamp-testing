@@ -8,7 +8,7 @@ It produces no assets intended for public consumption. Its contents are availabl
 
 ## Ownership and access
 
-The maintainer controls the repository's fixtures, settings, visibility, access decisions, and publication. Public readers may inspect, clone, and propose changes through issues or pull requests. Read access does not grant write authority.
+The maintainer controls the repository's fixtures, settings, visibility, access decisions, and publication. Public readers may inspect and clone the repository. Issues and pull requests are restricted to collaborators. Read access does not grant write authority.
 
 Only the maintainer may push or merge. Agents may prepare patches and conduct read-only validation; publication through the maintainer's account requires explicit maintainer authorization for that change. Test runs and scheduled jobs have no independent authority to publish fixtures, change visibility, or grant access. Routine treestamp CI receives no write credential for this repository.
 
