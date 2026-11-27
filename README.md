@@ -1,4 +1,8 @@
-# Treestamp SVG rendering check
+# Treestamp GitHub compatibility fixtures
+
+This repository is part of [treestamp's](https://github.com/reponomics/treestamp) development surface. It holds controlled fixtures for GitHub Markdown and image rendering, real API acquisition, and local/hosted editor compatibility. It began with adaptive SVG inspection; other scenarios belong here when they need the real GitHub environment.
+
+Read the [usage, access, and governance policy](POLICY.md) before publishing fixtures or running live checks. The [fixture inventory](FIXTURES.md) distinguishes historical experiments from current exporter output. Only the maintainer authorizes publication; routine tests do not push here. The retained images below are visual controls, not evidence that a current treestamp release has passed validation.
 
 ## Single adaptive SVG — experiment
 
@@ -14,11 +18,11 @@ Switch GitHub between light and dark appearance and compare this image with the 
 ![Repository tree](assets/treestamp-adaptive.svg)
 ```
 
-This is a compatibility probe, not a change to the application's exporter. It retains the light sample's metadata; the current application will regenerate a fixed light appearance when reopening it.
+This is a historical, hand-adjusted compatibility probe. Its embedded metadata still declares the light appearance, even though its drawing adapts through CSS. Regeneration follows that metadata; this file is not a current adaptive export or a round-trip parity fixture.
 
 ## Two-file control
 
-A transparent directory tree with monochrome text, connected branches, and inline `#` annotations. The README selects white ink for dark mode and black ink for light mode. Both SVGs contain the same editable treestamp metadata.
+A transparent directory tree with monochrome text, connected branches, and inline `#` annotations. The README selects white ink for dark mode and black ink for light mode. Both SVGs embed the same editable treestamp document, with their respective light or dark appearance settings.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/treestamp-dark.svg">
@@ -48,4 +52,4 @@ Inspect the individual files: [black ink / light appearance](assets/treestamp-li
 
 This follows [GitHub's documented theme-aware image pattern](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github#adding-an-image-to-suit-your-visitors). Paths are relative to the README. A single fixed appearance also works with ordinary Markdown image syntax.
 
-The directories drawn inside the image are illustrative; this repository contains the README, two fixed SVG assets, and the adaptive SVG experiment.
+The directories drawn inside the images are illustrative and do not describe this repository's actual tree. Consult the fixture inventory before using them for an editor-loading comparison.
